@@ -14,6 +14,8 @@
 		0A9729EE2985E847003C89C6 /* CatchThisRatioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9729ED2985E847003C89C6 /* CatchThisRatioTests.swift */; };
 		0A9729F82985E847003C89C6 /* CatchThisRatioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9729F72985E847003C89C6 /* CatchThisRatioUITests.swift */; };
 		0A9729FA2985E847003C89C6 /* CatchThisRatioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9729F92985E847003C89C6 /* CatchThisRatioUITestsLaunchTests.swift */; };
+		0A972A0729861584003C89C6 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A972A0629861584003C89C6 /* Persistance.swift */; };
+		0A972A0929862CEB003C89C6 /* UpdateMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A972A0829862CEB003C89C6 /* UpdateMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0A9729F32985E847003C89C6 /* CatchThisRatioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchThisRatioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9729F72985E847003C89C6 /* CatchThisRatioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchThisRatioUITests.swift; sourceTree = "<group>"; };
 		0A9729F92985E847003C89C6 /* CatchThisRatioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchThisRatioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A972A0629861584003C89C6 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		0A972A0829862CEB003C89C6 /* UpdateMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				0A9729DB2985E845003C89C6 /* CatchThisRatioApp.swift */,
 				0A9729DD2985E845003C89C6 /* ContentView.swift */,
+				0A972A0829862CEB003C89C6 /* UpdateMap.swift */,
+				0A972A0629861584003C89C6 /* Persistance.swift */,
 				0A9729DF2985E847003C89C6 /* Assets.xcassets */,
 				0A9729E12985E847003C89C6 /* CatchThisRatio.entitlements */,
 				0A9729E22985E847003C89C6 /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				0A9729DE2985E845003C89C6 /* ContentView.swift in Sources */,
 				0A9729DC2985E845003C89C6 /* CatchThisRatioApp.swift in Sources */,
+				0A972A0729861584003C89C6 /* Persistance.swift in Sources */,
+				0A972A0929862CEB003C89C6 /* UpdateMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -419,6 +429,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CTF Ratio";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +468,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CTF Ratio";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
